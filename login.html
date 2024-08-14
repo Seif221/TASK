@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/x-icon" href="fast-food.png">
+<body>
+    <h1>Welcome dear user</h1>
+    <hr>
+    <form action="index.html">
+
+
+
+        <div class="inputField" id="email">
+            <label for="email">Entrer votre email: </label>
+            <input type="email" id="email"  placeholder="Entrer votre email" required><br>
+        </div>
+        
+        <div class="inputField">
+            <label for="password">Entrer votre mot de passe: </label>
+            <input type="password" id="password" placeholder="Entrer votre mot de passe" required><br>
+        </div>
+
+        <div class="inputField">
+            <label>Enter your marital status: </label><br>
+            <input type="checkbox" id="single" name="status" value="Single">
+            <label for="single">Single</label><br>
+            <input type="checkbox" id="couple" name="status" value="Couple">
+            <label for="couple">Couple</label><br>
+            <input type="checkbox" id="married" name="status" value="Married">
+            <label for="married">Married</label>
+        </div>
+
+        <div class="inputField">
+            <label>Enter your gender: </label><br>
+            <input type="radio" id="homme" name="gender" value="Homme">
+            <label for="homme">Homme</label><br>
+            <input type="radio" id="femme" name="gender" value="Femme">
+            <label for="femme">Femme</label><br>
+            <input type="radio" id="autre" name="gender" value="Autre">
+            <label for="autre">Autre</label>
+        </div>
+        
+        <div class="inputField">
+            <label for="bootcamp">What bootcamp do you want to register in:</label>
+            <select id="bootcamp">
+                <option value="PY">Bootcamp Python</option>
+                <option value="DEV" selected>Bootcamp Web Development</option>
+                <option value="UX">Bootcamp UX Design</option>
+            </select>
+        </div>
+
+        <div class="inputField"> 
+            <label for="problem">If you have a problem, please tell us:</label><br>
+            <textarea id="problem" rows="5" cols="50" placeholder="Don't hesitate to tell the truth"></textarea>
+        </div>
+
+        <div class="inputField">
+            <button type="submit">Login</button>
+        </div>
+   
+    </form>
+</body>
+</html>
